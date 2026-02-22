@@ -1,0 +1,66 @@
+/* PAGE BACKGROUND (same theme) */
+.uploadPage {
+  min-height: 100vh;
+  color: white;
+  padding: 40px 20px;
+  background: radial-gradient(circle at center, #0a1b3d 0%, #050c1f 60%, #000 100%);
+}
+
+/* CENTER LAYOUT */
+.pageCenter {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.pageTitle {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg,#00eaff,#5a67ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pageSubtitle {
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+/* GLASS BOX */
+.glassBox {
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  padding: 40px;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* TEXTAREA */
+.textArea {
+  width: 100%;
+  height: 180px;
+  margin: 20px 0;
+  border-radius: 15px;
+  padding: 16px;
+  background: rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+}
+
+.primaryBtn {
+  padding: 14px 30px;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(45deg,#00eaff,#0099cc);
+  box-shadow: 0 0 20px rgba(0,234,255,0.5);
+}
+
+.helperText {
+  margin-top: 20px;
+  opacity: 0.7;
+}
