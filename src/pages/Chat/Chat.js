@@ -29,7 +29,7 @@ function Chat() {
 
     try {
       const res = await axios.post(
-        "https://personal-ai-guide-backend.onrender.com/api/chat",
+"https://personal-ai-guide-backend.onrender.com/api/chat",
         { question: currentQuestion }
       );
 
